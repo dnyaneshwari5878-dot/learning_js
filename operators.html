@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Arithmetic operator - _,- ,/ ,* ,** ,% ,++, --  -->
+     <script>
+        var a = 10;
+        var b = 4;
+        var c = a - b; //binary
+        c++; //unary
+        c++;
+        c++;
+        c--;
+        c++;
+        c--;
+        c++; //17 //9
+        document.write(c);
+     </script>
+
+     <!-- Assinment Operators =, +=, -+, *=  -->
+      <script>
+        var x = 10;
+        var y = 12;
+        x += y;
+        document.write(x + "<br>"); //22
+        document.write(y); //12
+      </script>
+
+      <!-- Comparison Operator - <,>,<=,>=,==,=== -->
+       <script>
+        var p = 17;
+        var q = "17";
+
+        document.write("<br>");
+        if(p===q){
+            document.write("true");
+        }else{
+            document.write("false");
+        }
+       </script>
+
+       <!-- Logical operators &&, ||, ! -->
+        <script>
+            var age = 22;
+            if(age >= 18 && age <=100){
+                document.write("Eligible for vote");
+            }else{
+                document.write("Not Eligible");
+            }
+        </script>
+        <script>
+            document.write("<br>");
+            var day = "Sunday";
+            if(day === "Saturday" || day === "Sunday"){
+                document.write("its weekend");
+            }else{
+                document.write("its weekdays");
+            }
+        </script>
+
+        <script>
+            document.write("<br>");
+            let our_age = 19;
+            let eligibility = (our_age >= 18)? "Eligible for vote" : "Not Eligible";
+            document.write(Eligibility);
+        </script>
+</body>
+</html>
